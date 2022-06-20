@@ -17,6 +17,13 @@
   <img src="Images/Planjussieu.jpeg" width="500" height="500">
 </p>
 
+## Intervenants
+**Noshine Mohammad** (Doctorante en Machine et Deep Learning au Laboratoire de Parasitologie à l'Hôpital Universitaire de la Pitié-Salpêtrière - Sorbonne Université)
+
+**Maël Pretet** (Data-scientist, Direction Appui, Traitements et Analyses des données DATA, Santé publique France) 
+
+**Dr Alexandre Godmer** (AHU département de bactériologie, site hôpital Saint-Antoine, Doctorant en thèse de science, Sorbonne-Université, INSERM, U1135, Centre d’Immunologie et des Maladies Infectieuses, Cimi-Paris, Paris)
+
 ## Programme :
 
 - Disponible à ce [lien](Cours/Rejmic_intro_2022.pdf)
