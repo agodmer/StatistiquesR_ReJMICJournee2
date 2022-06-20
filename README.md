@@ -25,7 +25,7 @@
 
 |  Cours | Horaires  | Intervenants  | Liens  |
 |---     |---        |---            |---     |
-| Introduction aux statistiques de base|9-10h|Mael Pretet|[cours 1]()|
+| Introduction aux statistiques de base|9-10h|Mael Pretet|[cours 1](Cours/AlexGodmer_cours_PCA.pdf)|
 | Decouverte de l'analyse en composantes principales|10h15-11h15|Alexandre Godmer|[cours 2]()|   
 | Introduction à R|11h30-12h25|Nohine mohammad|[cours 3]()|
 | Déjeuner |12h45-14h|:taco:|
