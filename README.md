@@ -30,8 +30,6 @@
 
 - Disponible à ce [lien](Cours/Rejmic_intro_2022.pdf)
 
-### Introduction à la génomique : un exemple applicatif de génomique comparative sur des souches bactériennes
-
 |  Cours | Horaires  | Intervenants  | Liens  |
 |---     |---        |---            |---     |
 | Introduction aux statistiques de base|9-10h|Mael Pretet|[cours 1]()|
