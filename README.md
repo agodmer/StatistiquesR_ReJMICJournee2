@@ -2,7 +2,7 @@
 ---
 
 ## Informations pratiques:
-- Le 24/06/2022
+- Le 24/06/2022 (9h-17h)
 - Salle 119 (campus Jussieu)
 
 ## Programme :
