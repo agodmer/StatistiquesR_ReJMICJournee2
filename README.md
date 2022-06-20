@@ -7,8 +7,11 @@
 
 ## Programme :
 
-- Disponible à ce [lien]()
+- Disponible à ce [lien](Cours/Rejmic_intro_2022.pdf)
 <p >
   <img src="Images/logo_ReJMIC.PNG" width="100" height="100">
+</p>
+<p >
+  <img src="Images/Logo_Sorbonne_Universite.png" width="150" height="80">
 </p>
 
