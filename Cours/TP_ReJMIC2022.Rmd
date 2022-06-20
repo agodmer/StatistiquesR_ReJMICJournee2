@@ -19,6 +19,8 @@ L'histoire de ce TP et les données proviennent d'un [article](https://journals.
 
 En 2011, le nord de l'Allemagne a connu une importante épidémie d'*E.coli* Shiga-toxigène O104:H4. La grande quantité d'échantillons envoyés aux laboratoires de microbiologie pour l'évaluation épidémiologique a souligné l'importance de procédures de typage rapides et peu coûteuses.
 
+Nous utiliserons les fonctions de ce [tutoriel](http://www.sthda.com/french/articles/38-methodes-des-composantes-principales-dans-r-guide-pratique/73-acp-analyse-en-composantes-principales-avec-r-l-essentiel/).
+
 ## 2. objectif
 
 Evaluer les performances de la spectrométrie de masse de type MALDI-TOF pour le typage d'un clone d'*Escherichia coli* Shiga-toxigène O104:H4
