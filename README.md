@@ -45,6 +45,11 @@
 - **Quelques liens utiles pour les cours :**
   - [Markdown](https://blog.sqlbak.com/jupyter-notebook-markdown-cheatsheet)
   - [Rstudio](https://ourednik.info/maps/2019/03/14/premiers-pas-avec-r-et-rstudio/)
+---
+- **Participation :**
+<p align="center">
+  <img src="Images/wooclap.PNG" width="500" height="250">
+</p>
 
 ---
 **Organisé par le ReJMIC :**
