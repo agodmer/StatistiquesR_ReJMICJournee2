@@ -28,15 +28,23 @@
 
 ## Programme :
 
-- Disponible à ce [lien](Cours/Rejmic_intro_2022.pdf)
+- **Disponible à ce [lien](Cours/Rejmic_intro_2022.pdf)**
 
 |  Cours | Horaires  | Intervenants  | Liens  |
 |---     |---        |---            |---     |
 | Introduction aux statistiques de base|9-10h|Mael Pretet|[cours 1]()|
 | Decouverte de l'analyse en composantes principales|10h15-11h15|Alexandre Godmer|[cours 2](Cours/AlexGodmer_cours_PCA.pdf)|   
-| Introduction à R|11h30-12h25|Nohine mohammad|[cours 3]()|
+| Introduction à R|11h30-12h25|Nohine mohammad|[cours 3](Cours/TP_intro_R_correction.html)|
 | Déjeuner |12h45-14h|:taco:|
 |Travaux pratiques|14h-16h45|Noshine Mohammad, Alexandre Godmer, Mael Pretet|[cours 3]()|
+
+- **Documents pour les cours et TP :**
+  - **Cours 3 :** introduction à R; le [notebook version apprenant](Cours/TP_intro_R_correction_versionApprenant.Rmd) ; les [données](Data/Snore.txt)
+  - **Travaux Pratiques :** le [notebook](Cours/TP_ReJMIC2022.html) ; les [données](https://github.com/agodmer/MSData/tree/main/ShigaToxigenicEscherichia)
+
+- **Quelques liens utiles pour les cours :**
+  - [Markdown](https://blog.sqlbak.com/jupyter-notebook-markdown-cheatsheet)
+  - [Rstudio](https://ourednik.info/maps/2019/03/14/premiers-pas-avec-r-et-rstudio/)
 
 ---
 **Organisé par le ReJMIC :**
