@@ -32,7 +32,7 @@
 
 |  Cours | Horaires  | Intervenants  | Liens  |
 |---     |---        |---            |---     |
-| Introduction aux statistiques de base|9-10h|Mael Pretet|[cours 1](Cours/Introduction aux statistiques.pdf)|
+| Introduction aux statistiques de base|9-10h|Mael Pretet|[cours 1](Cours/Introduction_aux_statistiques.pdf)|
 | Decouverte de l'analyse en composantes principales|10h15-11h15|Alexandre Godmer|[cours 2](Cours/AlexGodmer_cours_PCA.pdf)|   
 | Introduction à R|11h30-12h25|Nohine mohammad|[cours 3](https://agodmer.github.io/StatistiquesR_ReJMICJournee2/Cours/TP_intro_R_versionApprenants.html)|
 | Déjeuner |12h45-14h|:taco:|
