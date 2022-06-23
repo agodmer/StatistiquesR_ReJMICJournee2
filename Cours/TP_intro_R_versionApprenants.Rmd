@@ -210,41 +210,38 @@ names(donnees)
 Le data-frame **iris** est disponible sous R. Il suffit de taper **data(iris)** pour le charger.  
 1. Obtenir un résumé de ce jeu de données grâce à la fonction **summary**.
 
-```{r, echo=F}
+```{r, echo=T}
 #iris
-summary(iris)
+# A vous de jouer
 
 ```
 Quelles sont ses dimensions ? 
+
 2. Retrouver les dimensions de ce jeu de données grâce à la fonction **dim**.
 
-```{r, echo=F}
-dim(iris)
+```{r, echo=T}
+# A vous de jouer
 ```
 
 Les dimensions sont 150 (lignes) 5 (colonnes)
 3. Visualiser ses cinq premières lignes.
 
-```{r, echo=F}
-iris[1:5,]
+```{r, echo=T}
+# A vous de jouer
 
 ```
 
 4. Créer un nouveau data-frame, que vous appellerez **iris2**, comportant uniquement les données de la modalité **versicolor** de la variable **Species**.
 
 
-```{r, echo=F}
-
-versi <- (iris$Species == "versicolor")
-iris2 <- iris[versi, ]
-head(iris2)
+```{r, echo=T}
+# A vous de jouer
 ```
 
 5. Trier par ordre croissant les données de **iris2** en fonction de la variable **Petal.Length** (vous pourrez utiliser la fonction **order**). Stocker le résultat dans un data-frame **iris3**. Vérifier le résultat sur les premières lignes de ce nouveau data-frame grâce à la fonction **head**.
 
-```{r, echo=F}
-iris3=iris2[order(iris2$Petal.Length),]
-head(iris3)
+```{r, echo=T}
+# A vous de jouer
 
 ```
 
@@ -383,36 +380,30 @@ On cherche à comparer les indicateurs numériques suivant les modalités de la 
 
 1. Créer deux tableaux de données issus du tableau original : un tableau nommé **ronfleur** qui contient uniquement les individus qui ronflent et un autre nommé **nonronfleur** qui contient les individus ne ronflant pas (on pourra utiliser la fonction **split**).
 
-```{r, echo=F}
-decoupe <- split(donnees,donnees$ronfle) 
-#ls(decoupe)
-nonronfleur <- decoupe$N
-ronfleur <- decoupe$O 
+```{r, echo=T}
+# A vous de jouer
 
 ```
 
 
 2. Résumer les deux tableaux de données. Comparer ces indicateurs, interpréter.
 
-```{r, echo=F}
-summary(ronfleur)
-summary(nonronfleur)
+```{r, echo=T}
+# A vous de jouer
+
 ```
 
 3. Quelle est la proportion d'hommes parmi les personnes qui ronflent ? Quelle est la proportion de ronfleurs parmi les hommes ?  
 
 Pour déterminer la proportion d’hommes ronfleurs :
 
-```{r, echo=F}
-n1 <- nrow(ronfleur)
-nbhommes1 <- sum(ronfleur$sexe == "H")
-nbhommes1/n1
+```{r, echo=T}
+# A vous de jouer
 ```
 Pour déterminer la proportion de ronfleurs parmi les hommes :   
 
-```{r, echo=F}
-nbhommes <- sum(donnees$sexe == "H")
-nbhommes1/nbhommes
+```{r, echo=T}
+# A vous de jouer
 ```
 
 
@@ -659,7 +650,7 @@ p2 + scale_x_continuous(breaks = seq(0.5, 3, by = 0.5)) + scale_y_continuous(nam
 
 Reprenons le jeu de données **Snore.txt**
 
-```{r, echo=F}
+```{r, echo=T}
 library(ggplot2)
 donnees <- read.table("Snore.txt")
 colnames(donnees) <- c("age","poids", "taille", "alcool", "sexe", "ronfle", "tabac") 
@@ -673,87 +664,65 @@ head(donnees)
 ```
 
 1. Représenter la variable **age** sous forme d'histogramme.
-```{r, echo=F}
-age <- donnees$age
-ggplot(donnees) + aes(x = age) + geom_histogram(aes(fill=age)) 
+```{r, echo=T}
+# A vous de jouer
 
 
 ```
 
 2. Ajouter un titre au graphique précédent
 
-```{r, echo=F}
-age <- donnees$age
-ggplot(donnees) + aes(x = age) + geom_histogram(aes(fill=age)) + ggtitle("La variable age sous forme d’histogramme")
+```{r, echo=T}
+# A vous de jouer
 
 
 ```
 
 3. Représenter l'histogramme des densités avec les classes [20;40], ]40;55], ]55,80].
 
-```{r, echo=F}
+```{r, echo=T}
 require("gridExtra")
 require("cowplot")
 
-classe1 <- donnees[donnees$age>=20 & donnees$age<=40,]
-classe2 <- donnees[donnees$age>40 & donnees$age<=55,]
-classe3 <- donnees[donnees$age>55 & donnees$age<=80,]
-
-c1 <- ggplot(classe1) + aes(x = classe1$age) + geom_histogram(aes(fill=classe1$age),size=2.5) + ggtitle("Histogramme des densité avec la classe [20,40]")
-
-c1
+# A vous de jouer
 
 ```
 
-```{r, echo=F}
-ggplot(donnees)+aes(x = age, y = ..density..) + geom_histogram(breaks = c(20, 40, 55, 80)) + ggtitle("Histogramme des âges")
+```{r, echo=T}
+# A vous de jouer
 
 ```
 
 4. La représenter à l'aide d'un boxplot. 
 
-```{r, echo=F}
-boxp <- ggplot(data = donnees, aes(x = factor(0), y = age)) + geom_boxplot() + xlab("") + scale_x_discrete(breaks = NULL)
-
-boxp
+```{r, echo=T}
+# A vous de jouer
 ```
 
 5. Représenter la variable **sexe** grâce à un diagramme en bar.
 
-```{r, echo=F}
-individus <- c(2:101)
-diag_bar <- ggplot(donnees) + aes(x = sexe, fill=sexe,color=sexe) + geom_bar() + ggtitle("Représentation de la variable sexe")
-diag_bar
+```{r, echo=T}
+# A vous de jouer
 ```
 
 6. Représenter la variable **alcool** (transformée en variable qualitative via la fonction  **as.factor**). 
 
-```{r, echo=F}
+```{r, echo=T}
 ls(donnees)
 Alcool <- as.factor(donnees$alcool)
-nuage_point1 <- ggplot(donnees) + aes(x = individus,y=Alcool) + geom_point(size=2.5, color="darkseagreen4")  + ggtitle("Représentation de la variable alcool")
-
-nuage_point1
-
-
-diag_bar1 <- ggplot(donnees) + aes(x=Alcool) + geom_bar() + ggtitle("Représentation de la variable alcool")
-
-diag_bar1
+# A vous de jouer
 ```
 
 7. Représenter le poids en fonction de la taille.
 
-```{r, echo=F}
-nuage_point2 <- ggplot(donnees) + aes(x = taille,y=poids) + geom_point(size=1.2, color="goldenrod")
-nuage_point2
-
+```{r, echo=T}
+# A vous de jouer
 ```
 
 8. Un boxplot peut être utilisé pour comparer une variable quantitative suivant les modalités d'une variable qualitative. Représenter ainsi les boîtes à moustaches de la variable **age** en fonction de la variable **ronfle**. Conclusion ?
 
-```{r, echo=F}
-boxp1 <- ggplot(donnees, aes(x=ronfle, y=age, color=ronfle)) + geom_boxplot() + ggtitle("Boîtes à moustaches de la variable age en fonction de la variable ronfle")
-boxp1
+```{r, echo=T}
+# A vous de jouer
 
 ```
 
