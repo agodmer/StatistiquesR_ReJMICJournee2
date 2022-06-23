@@ -32,14 +32,14 @@
 
 |  Cours | Horaires  | Intervenants  | Liens  |
 |---     |---        |---            |---     |
-| Introduction aux statistiques de base|9-10h|Mael Pretet|[cours 1]()|
+| Introduction aux statistiques de base|9-10h|Mael Pretet|[cours 1](Cours/Introduction aux statistiques.pdf)|
 | Decouverte de l'analyse en composantes principales|10h15-11h15|Alexandre Godmer|[cours 2](Cours/AlexGodmer_cours_PCA.pdf)|   
-| Introduction à R|11h30-12h25|Nohine mohammad|[cours 3](https://agodmer.github.io/StatistiquesR_ReJMICJournee2/Cours/TP_intro_R_correction.html)|
+| Introduction à R|11h30-12h25|Nohine mohammad|[cours 3](https://agodmer.github.io/StatistiquesR_ReJMICJournee2/Cours/TP_intro_R_versionApprenants.html)|
 | Déjeuner |12h45-14h|:taco:|
 |Travaux pratiques|14h-16h45|Noshine Mohammad, Alexandre Godmer, Mael Pretet|[cours 4](Cours/MALDI_intro_TP.pdf)|
 
 - **Documents pour les cours et TP :**
-  - **Cours 3 :** introduction à R; le [notebook version apprenant](Cours/TP_intro_R_correction_versionApprenant.Rmd) ; les [données](Data/Snore.txt)
+  - **Cours 3 :** introduction à R; le [notebook version apprenant](Cours/TP_intro_R_versionApprenants.Rmd) ; les [données](Data/Snore.txt)
   - **Travaux Pratiques :** le [notebook](https://agodmer.github.io/StatistiquesR_ReJMICJournee2/Cours/TP_ReJMIC2022.html) ; les [données](https://github.com/agodmer/MSData/tree/main/ShigaToxigenicEscherichia)
 
 - **Quelques liens utiles pour les cours :**
