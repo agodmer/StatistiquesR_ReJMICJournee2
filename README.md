@@ -36,7 +36,7 @@
 | Decouverte de l'analyse en composantes principales|10h15-11h15|Alexandre Godmer|[cours 2](Cours/AlexGodmer_cours_PCA.pdf)|   
 | Introduction à R|11h30-12h25|Nohine mohammad|[cours 3](https://agodmer.github.io/StatistiquesR_ReJMICJournee2/Cours/TP_intro_R_versionApprenants.html) [intro_R](Cours/Cours_intro_R.pdf)|
 | Déjeuner |12h45-14h|:taco:|
-|Travaux pratiques|14h-16h45|Noshine Mohammad, Alexandre Godmer, Mael Pretet|[cours 4](MALDI_intro_TP.pdf)|
+|Travaux pratiques|14h-16h45|Noshine Mohammad, Alexandre Godmer, Mael Pretet|[cours 4](Cours/TP_ReJMIC2022.Rmd)|
 
 - **Documents pour les cours et TP :**
   - **Cours 3 :** introduction à R; le [notebook version apprenant](Cours/TP_intro_R_versionApprenants.Rmd) ; les [données](Data/Snore.txt)
